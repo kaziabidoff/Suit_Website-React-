@@ -1,0 +1,13 @@
+.footer {
+  background-color: #000;
+  color: #ffd700; /* Primary gold */
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}

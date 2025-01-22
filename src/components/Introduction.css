@@ -1,0 +1,38 @@
+
+.introduction {
+    background-color: #1e1e1e; /* Dark background to match the site theme */
+    color: #ffd700; /* Golden text color */
+    text-align: center;
+    padding: 60px 20px; /* Large padding for emphasis */
+    border-bottom: 2px solid #ffd700; /* Gold border to separate the section */
+  }
+  
+  .introduction h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .introduction p {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .introduction a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .introduction a:hover {
+    color: #ff8c00; /* Orange hover effect */
+  }
+  

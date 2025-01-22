@@ -1,0 +1,33 @@
+.header {
+  background-color: #000;
+  color: #ffd700; /* Primary gold */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header h1 {
+  font-family: 'Merriweather', serif; /* Elegant, serif font for the title */
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header nav a {
+  color: #ffd700; /* Primary gold */
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #ff8c00; /* Orange hover color */
+}

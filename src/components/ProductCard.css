@@ -1,0 +1,104 @@
+.product-card {
+  background-color: #222;
+  color: #ffd700; /* Primary gold */
+  padding: 20px;
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-card h2 {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-card button {
+  background-color: #ffd700; /* Primary gold */
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #ff8c00; /* Orange hover color */
+  color: #fff;
+}
+
+.product-card img {
+  filter: drop-shadow(0 4px 10px rgba(255, 215, 0, 0.7)); /* Golden glow shadow */
+}
+
+.product-card:hover {
+  filter: drop-shadow(0 4px 10px rgba(255, 140, 0, 0.7)); /* Orange glow shadow on hover */
+}
+
+.glowing-gold {
+  color: #ffd700;
+  filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8));
+}
+
+.glowing-orange {
+  color: #ff8c00;
+  filter: drop-shadow(0 0 15px rgba(255, 140, 0, 0.8));
+}
+
+.glowing-yellow {
+  color: #ffcc00;
+  filter: drop-shadow(0 0 15px rgba(255, 204, 0, 0.8));
+}
+
+.glowing-gray {
+  color: #808080;
+  filter: drop-shadow(0 0 15px rgba(128, 128, 128, 0.8));
+}
+
+.gray-bg {
+  background-color: #808080; 
+  color: #fff; 
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
